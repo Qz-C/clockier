@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    SafeAreaView,
+    View,
     TouchableHighlight,
     StyleSheet
 } from "react-native";
@@ -12,24 +12,29 @@ interface Props{
 }
 
 const AddEvent: React.FC<Props> = (props) => {
+
     return(
-        <SafeAreaView style={styles.container}>
+        <View style={styles.container}>
             <TouchableHighlight style={styles.button}>
-                <Icon name={"add-circle"} size={60} color={"#0A68E8"}/>
+                <Icon name={"add-circle"} size={60} color={'#0A68E8'}/>
             </TouchableHighlight>
-        </SafeAreaView>
+        </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
+
         width: '100%',
         zIndex: 99,
         alignContent: 'center',
-        justifyContent: 'center'
+        flex: 1,
+        justifyContent: 'flex-end',
+        marginBottom: 36,
     },
     button: {
-        alignSelf: 'center'
+        alignSelf: 'center',
+
     }
 })
 
