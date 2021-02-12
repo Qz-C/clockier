@@ -14,7 +14,7 @@ const Home: React.FC<Props> = (props) => {
 
 	const realm = openRealm();
 	console.log(realm);
-
+	
     return (
       <SafeAreaView style={styles.container}>
           <AddEventButton></AddEventButton>
