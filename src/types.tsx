@@ -1,6 +1,6 @@
 export interface Event{
-    eventId: number,
+    eventId: string,
     title:string,
-    date:string,
+    date:Date,
     time?:number
 }
