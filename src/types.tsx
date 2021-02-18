@@ -4,3 +4,13 @@ export interface Event{
     date:Date,
     time?:number
 }
+
+export interface WeekDays{
+    day:string,
+    short:string
+}
+
+export interface Months{
+    month: string,
+    short: string
+}

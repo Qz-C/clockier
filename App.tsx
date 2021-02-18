@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./src/screens/Home"
+import Calendar from "./src/components/Calendar";
 
 const App: React.FC = () => {
 
   return (
-    <Home/>
+    <Calendar/>
   );
 };
 

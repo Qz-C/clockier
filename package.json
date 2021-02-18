@@ -10,8 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@types/react-native-calendars": "^1.505.0",
+    "instal": "^0.0.1-security",
+    "npm": "^7.5.4",
     "react": "16.13.1",
     "react-native": "0.63.4",
+    "react-native-calendars": "^1.1249.0",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-linear-gradient": "^2.5.6",
     "react-native-vector-icons": "^8.0.0",
     "realm": "^10.2.0"
   },
